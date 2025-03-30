@@ -28,5 +28,5 @@ SERA follows a structured pipeline to provide support:
 SERA is designed to be a compassionate and accessible tool, ensuring that those in distress have a supportive and non-judgmental space to express themselves.
 
 ## Important Notes
-**Not a Diagnostic Tool**: This application is not designed to diagnose any mental health conditions or provide medical advice.
-**Not a Replacement**: While helpful for initial support, this tool should not replace professional counseling
+- **Not a Diagnostic Tool**: This application is not designed to diagnose any mental health conditions or provide medical advice.
+- **Not a Replacement**: While helpful for initial support, this tool should not replace professional counseling
