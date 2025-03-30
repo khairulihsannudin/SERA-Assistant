@@ -30,3 +30,43 @@ SERA is designed to be a compassionate and accessible tool, ensuring that those 
 ## Important Notes
 - **Not a Diagnostic Tool**: This application is not designed to diagnose any mental health conditions or provide medical advice.
 - **Not a Replacement**: While helpful for initial support, this tool should not replace professional counseling
+
+## Setup and Configuration
+
+### Prerequisites
+- Python 3.8 or newer
+- Required API keys:
+  1. **OpenRouter API key**
+  2. **Deepgram API key**
+  3. **Google Cloud API key** with Text-to-Speech enabled
+
+### Installation
+#### Clone the repository:
+```bash
+git clone https://github.com/yourusername/SERA-Assistant.git
+cd SERA-Assistant
+```
+
+#### Install dependencies:
+```bash
+pip install requests sounddevice soundfile deepgram-sdk python-dotenv
+```
+
+#### Create a `.env` file with your API keys:
+```ini
+OPENROUTER_API_KEY=your_openrouter_api_key
+DEEPGRAM_API_KEY=your_deepgram_api_key
+GCP_API_KEY=your_google_cloud_api_key
+PROMPT="Prompt kamu untuk mendukung orang-orang dalam hal kekerasan seksual"
+```
+
+## Usage
+1. Ensure your microphone is properly configured and working.
+2. Run the application:
+   ```bash
+   python sera_main.py
+   ```
+3. When prompted, **speak in Indonesian** about your experience or concern.
+4. Listen to the **empathetic response** provided by SERA.
+
+This ensures a seamless setup and experience for users seeking support through the SERA assistant.
